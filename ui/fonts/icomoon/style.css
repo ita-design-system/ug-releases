@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?herruz') format('truetype'),
+    url('fonts/icomoon.woff?herruz') format('woff'),
+    url('fonts/icomoon.svg?herruz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e944";
+}
+.icon-shield:before {
+  content: "\e943";
+}
+.icon-connect_car:before {
+  content: "\e940";
+}
+.icon-param:before {
+  content: "\e941";
+}
+.icon-extend:before {
+  content: "\e942";
+}
+.icon-pause_fill:before {
+  content: "\e93e";
+}
+.icon-pause_line:before {
+  content: "\e93f";
+}
+.icon-play_line:before {
+  content: "\e93c";
+}
+.icon-play_fill:before {
+  content: "\e93d";
+}
+.icon-eye_close_fill:before {
+  content: "\e938";
+  color: #09244b;
+}
+.icon-eye_close_line:before {
+  content: "\e939";
+  color: #09244b;
+}
+.icon-eye_fill:before {
+  content: "\e93a";
+  color: #09244b;
+}
+.icon-eye_line:before {
+  content: "\e93b";
+  color: #09244b;
+}
+.icon-search_fill:before {
+  content: "\e936";
+  color: #09244b;
+}
+.icon-search_line:before {
+  content: "\e937";
+  color: #09244b;
+}
+.icon-search_2_fill:before {
+  content: "\e930";
+}
+.icon-search_2_line:before {
+  content: "\e931";
+}
+.icon-check_circle_fill:before {
+  content: "\e932";
+}
+.icon-check_circle_line:before {
+  content: "\e933";
+}
+.icon-alert_octagon_fill:before {
+  content: "\e934";
+}
+.icon-alert_octagon_line:before {
+  content: "\e935";
+}
+.icon-close_fill:before {
+  content: "\e923";
+}
+.icon-close_line:before {
+  content: "\e92a";
+}
+.icon-down_line:before {
+  content: "\e916";
+}
+.icon-up_line:before {
+  content: "\e919";
+}
+.icon-left_line:before {
+  content: "\e917";
+}
+.icon-right_line:before {
+  content: "\e918";
+}
+.icon-down_fill:before {
+  content: "\e92b";
+}
+.icon-up_fill:before {
+  content: "\e92c";
+}
+.icon-left_fill:before {
+  content: "\e92d";
+}
+.icon-right_fill:before {
+  content: "\e92e";
+}
+.icon-arrow_down_fill:before {
+  content: "\e91b";
+}
+.icon-arrow_down_line:before {
+  content: "\e91c";
+}
+.icon-arrow_left_fill:before {
+  content: "\e924";
+}
+.icon-arrow_left_line:before {
+  content: "\e925";
+}
+.icon-arrow_right_fill:before {
+  content: "\e926";
+}
+.icon-arrow_right_line:before {
+  content: "\e927";
+}
+.icon-arrow_up_fill:before {
+  content: "\e928";
+}
+.icon-arrow_up_line:before {
+  content: "\e929";
+}
+.icon-car_fill:before {
+  content: "\e900";
+}
+.icon-car_line:before {
+  content: "\e901";
+}
+.icon-device_fill:before {
+  content: "\e902";
+}
+.icon-device_line:before {
+  content: "\e903";
+}
+.icon-user_3_fill:before {
+  content: "\e904";
+}
+.icon-user_3_line:before {
+  content: "\e905";
+}
+.icon-store_2_fill:before {
+  content: "\e906";
+}
+.icon-store_2_line:before {
+  content: "\e907";
+}
+.icon-phone_fill:before {
+  content: "\e908";
+}
+.icon-phone_line:before {
+  content: "\e909";
+}
+.icon-menu_fill:before {
+  content: "\e90a";
+}
+.icon-menu_line:before {
+  content: "\e90b";
+}
+.icon-mail_fill:before {
+  content: "\e90c";
+}
+.icon-mail_line:before {
+  content: "\e90d";
+}
+.icon-youtube_fill:before {
+  content: "\e90e";
+}
+.icon-youtube_line:before {
+  content: "\e90f";
+}
+.icon-linkedin_fill:before {
+  content: "\e910";
+}
+.icon-linkedin_line:before {
+  content: "\e911";
+}
+.icon-ins_line:before {
+  content: "\e912";
+}
+.icon-ins_fill:before {
+  content: "\e913";
+}
+.icon-facebook_fill:before {
+  content: "\e914";
+}
+.icon-facebook_line:before {
+  content: "\e915";
+}
+.icon-arrow_right_circle_line:before {
+  content: "\e91d";
+}
+.icon-arrow_left_circle_line:before {
+  content: "\e91e";
+}
+.icon-arrow_down_circle_line:before {
+  content: "\e92f";
+}
+.icon-arrow_up_circle_line:before {
+  content: "\e921";
+}
+.icon-arrow_left_circle_fill:before {
+  content: "\e91f";
+}
+.icon-arrow_up_circle_fill:before {
+  content: "\e91a";
+}
+.icon-arrow_right_circle_fill:before {
+  content: "\e920";
+}
+.icon-arrow_down_circle_fill:before {
+  content: "\e922";
+}
