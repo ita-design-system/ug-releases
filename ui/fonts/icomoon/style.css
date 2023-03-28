@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-    url('fonts/icomoon.ttf?herruz') format('truetype'),
-    url('fonts/icomoon.woff?herruz') format('woff'),
-    url('fonts/icomoon.svg?herruz#icomoon') format('svg');
+    url('fonts/icomoon.ttf?9g5hxh') format('truetype'),
+    url('fonts/icomoon.woff?9g5hxh') format('woff'),
+    url('fonts/icomoon.svg?9g5hxh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-upload:before {
+  content: "\e945";
+}
 .icon-home:before {
   content: "\e944";
 }
@@ -38,6 +41,12 @@
 }
 .icon-extend:before {
   content: "\e942";
+}
+.icon-pencil_fill:before {
+  content: "\e946";
+}
+.icon-pencil_line:before {
+  content: "\e947";
 }
 .icon-pause_fill:before {
   content: "\e93e";

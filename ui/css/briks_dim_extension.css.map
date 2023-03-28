@@ -3,15 +3,15 @@
 	"file": "briks_dim_extension.css",
 	"sources": [
 		"briks_dim_extension.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/_core.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/engine/_variables.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/engine/_functions-system.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/engine/_functions-usage.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/engine/_mixins.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/settings/tokens/_ucar.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/engine/_boot.scss",
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/_core.scss",
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/engine/_variables.scss",
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/engine/_functions-system.scss",
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/engine/_functions-usage.scss",
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/engine/_mixins.scss",
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/settings/tokens/_ucar.scss",
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/engine/_boot.scss",
 		"_sass/_dim_extension.scss",
-		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230316-54622-zu2330/_sass/briks/_components.scss"
+		"../../../../private/var/folders/8r/rwm5xhwd3s33rk3zsg2k09r40000gn/T/jekyll-remote-theme-20230328-8682-9hcv6n/_sass/briks/_components.scss"
 	],
 	"sourcesContent": [
 		"/*\n    POINT D'ENTRÉE EXTENSION\n    Placer le chemin du fichier dans le fichier _config.yml de LibDoc\n*/\n\n/*\n    CORE\n    Fonctionnalités principales \n    Inclure briks/_core.scss pour obtenir les fonctions helpers et les mixins.\n    Aucune déclaration CSS n'est générée à partir de ce fichier.\n*/\n@import 'briks/core';\n/*\n    DESIGN TOKENS\n    Fichier SASS contenant les design tokens du projet\n*/\n@import 'briks/settings/tokens/ucar';\n/*\n    CONFIGURATION DE L'EXTENSION DU COMPOSANT C-DIM\n    Requiert briks/_core.scss\n    Imports du fichier de configuration c-dim.\n    Le fichiers SASS de l'extension est dans le répertoire _sass de ce dépôt\n*/\n@import 'dim_extension';\n\n/*\n    GÉNÉRATEUR DE COMPOSANTS\n    Requiert  briks/_core.scss\n    Génère toutes les déclarations CSS des composants\n*/\n@import 'briks/components';\n",

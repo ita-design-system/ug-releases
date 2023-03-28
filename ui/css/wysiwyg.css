@@ -1,0 +1,33 @@
+.wysiwyg {
+    color: var(--ita-color-grey-dark-500);
+    line-height: 1.6em;
+}
+.wysiwyg blockquote {
+    display: flex;
+    font-size: var(--ita-font-size-7);
+    font-family: var(--ita-font-family-lead-700);
+    color: var(--ita-color-orange-500);
+    line-height: 1.3em;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.wysiwyg blockquote::before {
+    content: '“'
+}
+.wysiwyg blockquote::after {
+    content: '”';
+    align-self: flex-end;
+}
+.wysiwyg a {
+    font-family: var(--ita-font-family-lead-700);
+    color: var(--ita-color-grey-dark-900);
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--ita-color-orange-500);
+    transition: text-decoration-color 300ms;
+}
+.wysiwyg a:hover {
+    text-decoration-color: var(--ita-color-grey-dark-900);
+}
