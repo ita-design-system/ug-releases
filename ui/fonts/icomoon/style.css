@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-    url('fonts/icomoon.ttf?9g5hxh') format('truetype'),
-    url('fonts/icomoon.woff?9g5hxh') format('woff'),
-    url('fonts/icomoon.svg?9g5hxh#icomoon') format('svg');
+    url('fonts/icomoon.ttf?339o7g') format('truetype'),
+    url('fonts/icomoon.woff?339o7g') format('woff'),
+    url('fonts/icomoon.svg?339o7g#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-VIP_1_fill:before {
+  content: "\e957";
+}
+.icon-VIP_1_line:before {
+  content: "\e958";
+}
+.icon-trophy_fill:before {
+  content: "\e959";
+}
+.icon-trophy_line:before {
+  content: "\e95a";
+}
+.icon-user_follow_fill:before {
+  content: "\e953";
+}
+.icon-user_follow_line:before {
+  content: "\e954";
+}
+.icon-vip_2_fill:before {
+  content: "\e955";
+}
+.icon-vip_2_line:before {
+  content: "\e956";
+}
+.icon-warn:before {
+  content: "\e952";
+}
 .icon-upload:before {
   content: "\e945";
 }
@@ -41,6 +68,36 @@
 }
 .icon-extend:before {
   content: "\e942";
+}
+.icon-currency_euro_fill:before {
+  content: "\e94c";
+}
+.icon-currency_euro_line:before {
+  content: "\e94d";
+}
+.icon-key_2_fill:before {
+  content: "\e94e";
+}
+.icon-key_2_line:before {
+  content: "\e94f";
+}
+.icon-information_fill:before {
+  content: "\e950";
+}
+.icon-information_line:before {
+  content: "\e951";
+}
+.icon-document_2_fill:before {
+  content: "\e94a";
+}
+.icon-document_2_line:before {
+  content: "\e94b";
+}
+.icon-add_fill:before {
+  content: "\e948";
+}
+.icon-add_line:before {
+  content: "\e949";
 }
 .icon-pencil_fill:before {
   content: "\e946";
@@ -62,27 +119,21 @@
 }
 .icon-eye_close_fill:before {
   content: "\e938";
-  color: #09244b;
 }
 .icon-eye_close_line:before {
   content: "\e939";
-  color: #09244b;
 }
 .icon-eye_fill:before {
   content: "\e93a";
-  color: #09244b;
 }
 .icon-eye_line:before {
   content: "\e93b";
-  color: #09244b;
 }
 .icon-search_fill:before {
   content: "\e936";
-  color: #09244b;
 }
 .icon-search_line:before {
   content: "\e937";
-  color: #09244b;
 }
 .icon-search_2_fill:before {
   content: "\e930";
